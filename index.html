@@ -1,0 +1,257 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>​Syril​</title>
+    <meta name="description" content="​Syril​ ProtFolio❤️ Designed With Html-css-Js">
+    <meta name="author" content="​Syril​">
+    <link rel="icon" type="image/X-icon" href="images/IMG-20230719-WA0007.jpg">
+    <link rel="stylesheet" href="css/demo.css">
+    <link href="css/aos.css" rel="stylesheet">
+    <script src="js/aos.js"></script>
+    <link rel="stylesheet" href="css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="js/typed.umd.js"></script>
+    <script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="css/leaflet.css">
+    <script src="js/leaflet.js"></script>
+    
+        <script src="js/confetti.browser.min.js"></script>
+       <link rel="stylesheet" href="css/hover-min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="js/particles.min.js"></script>
+
+
+</head>
+
+<body onload="by()">
+ 
+
+    <br>
+
+    <header>
+        <div id="brand-name" data-aos="fade-up">
+            <h3>SYRIL</h3>
+        </div>
+        <nav data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <ul>
+                <li><a href="#brand-name">Home</a></li>
+                <li><a href="#small">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contactus">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="edit" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+            <button class="edit1" onclick="demo()">Random Background</button>
+            <button class="edit1" onclick="openpop()">Open Dialog</button>
+        </div>
+    </header>
+ 
+
+
+    <br><br><br><br><br>
+
+    <main>
+        <div id="small" data-aos="fade-up-right" data-aos-easing="linear" data-aos-duration="2000">
+            <h1>SYRIL</h1>
+            <span id="cha">I am a  <span id="element"></span></span>
+
+            <p>Hello! I'm a passionate frontend developer love for creating engaging and user-friendly  web
+                applications. I have a strong foundation in HTML CSS, and JavaScript along with experience in
+                various frontend frameworks and libraries</p>
+
+            <!-- Download CV Button -->
+            <a href="Resume (3).pdf" download="" class="download-btn hvr-icon-down">
+                <i class="fas fa-download"></i> Download CV
+            </a>
+        </div>
+
+        <div class="pic" data-aos="fade-up-left">
+            <img src="images/IMG-20230719-WA0007.jpg" alt="">
+        </div>
+    </main>
+
+    <br><br>
+    <section>
+        <div id="skills" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card">
+                <i class="fa-brands fa-html5" style="font-size: 40px; color: red;"></i>
+                <h3>HTML</h3>
+                <p>As a fresher passionate about web development, I have built several small projects using HTML, which helped me gain 
+                    hands-on experience in creating well-structured and semantic web pages. I’m eager to apply and grow my skills further in real-world projects.</p>
+                <small>Proficiency Level</small>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 100%;"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-css3" style="font-size: 40px; color: #264de4;"></i>
+                <h3>CSS</h3>
+                <p>I'm learning CSS and have used it to build responsive and clean web pages. 
+                    I’ve explored layout techniques like Flexbox and Grid, and also worked with frameworks like Bootstrap to improve my designs.</p>
+                <small>Proficiency Level</small>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-js" style="font-size: 40px; color: #f7df1e;"></i>
+                <h3>JavaScript</h3>
+                <p> I'm gaining experience in JavaScript and have worked on small projects using ES6 features. 
+                    I've practiced using functions, events, and asynchronous code to create interactive and dynamic websites.</p>
+                <small>Proficiency Level</small>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-docker" style="font-size: 40px; color: #2496ed;"></i>
+                <h3>Docker</h3>
+                <p>Proficient in creating and managing Docker containers and images. Experience with Docker Hub for
+                    image repository and deployment.</p>
+                <small>Proficiency Level</small>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-git" style="font-size: 40px; color: #f05032;"></i>
+                <h3>Git</h3>
+                <p>i've learned to use Git for version control and have used it in my projects to track changes and manage code.</p>
+                <small>Proficiency Level</small>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <br><br>
+
+        <div class="load"></div>
+
+
+
+        <br><br>
+        <div id="contactus" data-aos="fade-top">
+            <h1>Contact us</h1><br>
+            <form id="c-form">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your full name" required="">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required="">
+                <br>
+                <label for="message">Send Some Message:</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Send the message" required=""></textarea>
+                <br>
+                <br>
+                <button class="edit1">Send</button>
+
+
+                <br>
+                <br>
+                <br>
+            </form>
+        </div>
+                <footer data-aos="fade-up">
+                    <div class="col"><a href="https://github.com/iamsyril"><i class="fa-brands fa-github" style="color: black;" title="GitHub profile"></i></a></div>
+                    <div class="col" style="background-color:#ff5e57"><a href="tel:+918940354802"><i class="fa-solid fa-phone" title="Call Me"></i></a></div>
+                    <div class="col" style="background-color: rgb(0, 0, 121);"><a href="mailto:syrilsyril007@gmail.com"><i class="fa-solid fa-envelope" title="Mail To"></i></a></div>
+                    <div class="col" style="background-color: rgb(4, 4, 247);"><a href="https://www.linkedin.com/in/syril212004/" title="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="col" style="background-color: rgb(80, 241, 80);"><a href="https://wa.me/918940354802?text=Hai How Are You ❤️💓" title="Send WhatsApp Message"><i class="fa-brands fa-whatsapp"></i></a></div>
+                </footer>
+                <br>
+
+                <div class="scroll" onclick="along()" title="Go-To-Top">
+                    <i class="fa-solid fa-circle-up" id="a"></i>
+                </div>
+
+                <br><br>
+
+                <dialog id="myDialog" class="dialog">
+                    <h1>Your Info</h1>
+                    <h1 class="current">Current Mood</h1>
+                    <h1 class="browser">Browser:</h1>
+                    <h1 class="battery">Battery:</h1>
+                    <h1 class="time">Time:</h1>
+                    <h1 class="date">Date:</h1>
+                    <h1 class="height">Height:</h1>
+                    <h1 class="width">Width:</h1>
+                    <h1>Thank You ❤️</h1>
+
+                    <div class="dialog-buttons">
+                        <button onclick="closepop()" class="edit1">Close Dialog</button>
+                        <button class="edit1" onclick="vibrate(100)">Vibrate</button>
+                    </div>
+                </dialog>
+
+
+
+                <div id="show" class="map-container">
+                    <h1 class="map-title">Location</h1>
+                    <div id="map" class="map"></div>
+                </div>
+
+
+                  <div id="ket">
+        <p>© 2025 <strong>SYRIL</strong> @ All rights reserved.</p>
+    </div>
+                
+
+
+            
+
+
+                <script>
+                    AOS.init();
+                     function launchConfetti() {
+            const duration = 1.5 * 1000; // 5 seconds duration
+            const animationEnd = Date.now() + duration;
+            const defaults = { 
+                startVelocity: 30, 
+                spread: 360, 
+                ticks: 60, 
+                zIndex: 9999, // Bring confetti to the top
+                scalar: 2  // Increase the size of the particles
+            };
+
+            const interval = setInterval(function () {
+                const timeLeft = animationEnd - Date.now();
+
+                if (timeLeft <= 0) {
+                    return clearInterval(interval);
+                }
+
+                // Create a burst of confetti from random positions around the screen
+                confetti(Object.assign({}, defaults, {
+                    particleCount: 100, // Increase particle count for a more intense effect
+                    spread: 360,        // Full circle spread
+                    origin: {
+                        x: Math.random(),  // Random horizontal position
+                        y: Math.random()   // Random vertical position
+                    }
+                }));
+            }, 250); // Launch confetti every 250 milliseconds
+        }
+window.onload = function() {
+    launchConfetti();
+};
+                      
+                </script>
+      <script defer="" src="js/mail.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+
+
+</body></html>
